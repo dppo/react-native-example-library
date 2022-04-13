@@ -1,0 +1,35 @@
+{
+  "name": "example-library",
+  "version": "0.0.1",
+  "description": "Showcase Turbomodule with backward compatibility",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "example-library.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/dppo/example-library",
+  "author": "<Your Name> <your_email@your_provider.com> (https://github.com/dppo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dppo/example-library/issues"
+  },
+  "homepage": "https://github.com/dppo/example-library#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
